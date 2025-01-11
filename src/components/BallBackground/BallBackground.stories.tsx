@@ -22,7 +22,14 @@ const meta = {
 				<Story/>
 			</div>
 		),
-	]
+	],
+	argTypes: {
+		children: {
+			table: {
+				disable: true
+			},
+		},
+	},
 } satisfies Meta<typeof BallBackground>;
 
 export default meta;
@@ -34,6 +41,18 @@ export const Default: Story = {
 			<div className="h-full w-full flex items-center justify-center">
 				<h1 className="text-white text-6xl">Hello World!</h1>
 			</div>
-		)
+		),
+		config: {
+			speedMultiplier: 0.5,
+			ballMinSize: 80,
+			ballMaxSize: 100,
+			numberOfBalls: 8,
+			ballGradient: {
+				centerColor: "#1f2937",
+				edgeColor: "#2e3d52",
+				edgeStart: 0.6
+			},
+			backgroundColor: "#1f2937",
+		}
 	}
 };
