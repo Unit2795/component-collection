@@ -17,10 +17,10 @@ export const Default: Story = {
 	args: {
 		children: (
 			<div className="h-full w-full p-6 max-w-72 min-h-80 flex flex-col">
-				<h1 className="text-white text-2xl">Hello World!</h1>
+				<h1 className="text-white text-2xl underline">Hello World!</h1>
 
 				<p className="text-neutral-400 text-lg mt-4 text-wrap">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sapien ac mi aliquet ultrices.
+					Card component with a 3D hover effect. Uses perspective, rotation, and a radial gradient
 				</p>
 
 				<GlassButton className="mt-auto max-w-40">Learn More</GlassButton>

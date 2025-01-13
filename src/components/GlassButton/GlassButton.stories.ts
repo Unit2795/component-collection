@@ -32,7 +32,7 @@ type Story = StoryObj<typeof GlassButton>;
 
 export const Default: Story = {
 	args: {
-		children: "Glass Button",
+		children: "Hover Over Me!",
 		onClick: () => {
 			alert( "Button clicked!" );
 		},
