@@ -6,4 +6,4 @@ This isn't meant to be a library of reusable components. Just something to refer
 
 See the source for these components in the [src/components](src/components) folder.
 
-Or visit the deployed storybook to see them in action!
+Or visit the [deployed storybook](https://unit2795.github.io/component-collection/) to see them in action!
