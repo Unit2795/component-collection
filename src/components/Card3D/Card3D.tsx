@@ -88,9 +88,8 @@ const Card3D = ( {
 					className="absolute inset-0 rounded-2xl pointer-events-none"
 					style={
 						{
-							background: `radial-gradient(circle at ${ lightPosition.x.toString() }% ${ lightPosition.y.toString() }%, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 80%)`,
+							background: isHovered ? `radial-gradient(circle at ${ lightPosition.x.toString() }% ${ lightPosition.y.toString() }%, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 80%)` : "none",
 							mixBlendMode: "screen",
-							transition: isHovered ? "none" : "background 0.5s ease-out",
 						}
 					}/>
 
